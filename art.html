@@ -1,0 +1,131 @@
+<html>
+<title>PROCREATE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href='procreate-icon-search-display.png'>
+<body>
+
+<div class="w3-container">
+  <h2>PROCREATE ARTWORKS</h2>
+  <p>Click on the images to display them in full size.</p>
+  <p>BY AARAV KUMAR</p>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-container w3-third">
+    <img src="Candle.png" style="width:50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third">
+    <img src="Untitled_Artwork 12.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+
+<div class="w3-container w3-third">
+    <img src="Untitled_Artwork 10.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Untitled_Artwork 11.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Untitled_Artwork 5.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Untitled_Artwork 9.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Tropical_Landscape.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Northern_Lights.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Night_Mountains.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Earth.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Nature_Waterfall.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Eye.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Sketch.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Granny.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Sunset_Lighthouse.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="African_Sunset.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div class="w3-container w3-third">
+    <img src="Untitled_Artwork.png" style="width: 50%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+            
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href='quizicon.png'>
+</head>
+<body>
+    <h1><a href = "index.html">Click Me to go Back to Page 1!</a></h1>    
+    <label for="space">What was the first food eaten in space?</label>    
+    <select name="space" id="spaceFood">
+            <option value="applesauce">Applesauce</option>
+            <option value="peanutbutter">Peanut Butter</option>
+            <option value="toast">Toast</option>
+            <option value="orange">Orange</option>
+    </select>
+    <br>
+    <button onclick="checkAnswerSpace()">Click Me to See if Answer is Correct or Wrong!!</button>
+    <div id="spaceAnswer">Unknown</div>
+    <br>
+    <br>
+    
+    <label for="color">What color do you get when you blend yellow and purple?</label>
+    <select name="color" id="blendColor">
+            <option value="blue">Blue</option>
+            <option value="brown">Brown</option>
+            <option value="green">Green</option>
+            <option value="orange">Orange</option>
+    </select>
+    <br>
+    <button onclick="checkAnswerColor()">Click Me to See if Answer is Correct or Wrong!!</button>
+    <div id="colorAnswer">Unknown</div>
+    <br>
+    <br>
+
+    <label for="vegetable">What was the first Vegetable grown by People?</label>
+    <select name="vegetable" id="firstVegetable">
+            <option value="carrots">Carrots</option>
+            <option value="brocoli">Brocoli</option>
+            <option value="onions">Onions</option>
+            <option value="cabbage">Cabbage</option>
+    </select>
+    <br>
+    <button onclick="checkAnswerVegetable()">Click Me to See if Answer is Correct or Wrong!!</button>
+    <div id="vegetableAnswer">Unknown</div>
+    <br>
+    <br>
+
+    <label for="month">What is the hottest Month of the Year?</label>
+    <select name="month" id="hottestMonth">
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+    </select>
+    <br>
+    <button onclick="checkAnswerMonth()">Click Me to See if Answer is Correct or Wrong!!</button>
+    <div id="monthAnswer">Unknown</div>
+    <br>
+    <br>
+
+    <label for="mount">How long does it take to climb Mount Everest?</label>
+    <select name="mount" id="climbMount">
+            <option value="1month">1 Month</option>
+            <option value="2months">2 Months</option>
+            <option value="3months">3 Months</option>
+            <option value="4months">4 Months</option>
+    </select>
+    <br>
+    <button onclick="checkAnswerMount()">Click Me to See if Answer is Correct or Wrong!!</button>
+    <div id="mountAnswer">Unknown</div>
+    <br>
+    <br>
+        
+</body>
+<script src="script2.js"></script>
+  <style>
+      body {text-align: center;}
+  </style>
+</html>

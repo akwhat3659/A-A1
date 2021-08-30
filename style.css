@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-image: url('wallpaper.jpeg');
+    font-family: 'Marker Felt';
+    color: white;
+}
+
+head{
+    font-family: 'AGJoyOfMissingOutSolid Medium';
+}
+input{
+    background-color: rgb(217, 255, 220);
+    font-family: 'Avenir';
+    border-radius: 8px;
+    height: 30px;
+}
+
+input:hover{
+    background-color: rgb(172, 255, 179);
+    font-family: 'Avenir';
+    border-radius: 8px;
+}
+button{
+    background-color: rgb(255, 173, 173);
+    font-family: 'Avenir';
+    border-radius: 8px;
+    height: 30px;
+
+}
+
+button:hover{
+    background-color:rgb(255, 102, 102);
+    font-family: 'Avenir';
+}
+
+select{
+    background-color:rgb(204, 218, 255);
+    font-family: 'Avenir';
+    border-radius: 8px;
+    height: 30px;
+}
+
+
+
+@supports(-webkit-touch-callout: none){
+    option{
+        background-color:teal;
+    }
+}

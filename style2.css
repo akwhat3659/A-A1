@@ -1,0 +1,43 @@
+body{
+    font-family: 'Marker Felt';
+    color: white;
+    font-size: 40px;
+    background-image: url('wallpaper.jpeg');
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-color: red;
+}
+
+div{
+    border-radius: 13px;
+}
+
+head{
+    color: lightsalmon;
+    font-family: Avenir;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 87, 115);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(0, 110, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(190, 255, 209);
+    background-color: transparent;
+    text-decoration: underline;
+  }
